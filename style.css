@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #262626;
+
+}
+header{
+    height: 50px;
+    background-color: #0D0D0D;
+    color: #A6A6A6;
+    justify-content: space-between;  
+    padding-top: 10px;  
+}
+
+.navigation a{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.navigation a:hover {
+    border-radius: 10px;
+    transform: scale(1.2);
+    background-color: rgb(32, 32, 32);
+
+}
+
+main{
+    background-color: #262626;
+}
+
+
+.principal{
+    background-color: #595959;
+    height: 400px;
+    padding-top: 30px;
+}
+.principal p{
+    color: white;
+    display: inline;
+    padding-left: 250px;
+    margin: 0px;
+    font-size: 2em;
+}
+
+#nome{
+    color: purple;
+    font-size: 4em;
+}
+
+#skill{
+    position: relative;
+    height: 600px;
+}
+#skill h1{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+#skill img{
+    width: 100px;
+    height: 110px;
+}
+
+
+.q1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 26px;
+    background-color: rgba(65, 65, 65, 0.801);
+    border-radius: 20px;
+    margin-top: 3em;
+    margin-left: 40em;
+}
+
+.q1:hover {
+    transform: scale(1.2);
+
+}
+
+.q2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    padding-top: 25px;
+    padding-left: 26px;
+    background-color: rgba(65, 65, 65, 0.801);
+    border-radius: 20px;
+    margin-top: 3em;
+    margin-left: 60em;
+}
+
+.q2:hover {
+    transform: scale(1.2);
+
+}
+
+.q3{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    padding-top: 25px;
+    padding-left: 26px;
+    background-color: rgba(65, 65, 65, 0.801);
+    border-radius: 20px;
+    margin-top: 15em;
+    margin-left: 40em;
+}
+
+.q3:hover {
+    transform: scale(1.2);
+
+}
+
+.projetos{
+    background-color: #595959;
+    height: 800px;
+}
+
+.projetos img{
+    width: 250px;
+    height: 150px;
+}
+
+.projetos h1{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.p1{
+    position: absolute;
+    width: 400px;
+    height: 280px;
+    padding-top: 5px;
+    padding-left: 26px;
+    background-color: rgba(65, 65, 65, 0.801);
+    border-radius: 20px;
+    margin-top: 3em;
+    margin-left: 15em;
+}
+
+.p1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.p1 p{
+    padding-top: 3px;
+    font-size: 1.2em;
+}
+
+.p1:hover {
+    transform: scale(1.3); 
+    transition: 1000ms;
+  }
+
+
+.p2{
+    position: absolute;
+    width: 400px;
+    height: 280px;
+    padding-top: 5px;
+    padding-left: 26px;
+    background-color: rgba(65, 65, 65, 0.801);
+    border-radius: 20px;
+    margin-top: 3em;
+    margin-left: 65em;
+}
+
+.p2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.p2 p{
+    padding-top: 3px;
+    font-size: 1.2em;
+}
+
+.p2:hover {
+    transform: scale(1.3); 
+    transition: 1000ms;
+  }
+
+.p3{
+    position: absolute;
+    width: 400px;
+    height: 280px;
+    padding-top: 5px;
+    padding-left: 26px;
+    background-color: rgba(65, 65, 65, 0.801);
+    border-radius: 20px;
+    margin-top: 25em;
+    margin-left: 65em;
+}
+
+.p3 p{
+    padding-top: 3px;
+    font-size: 1.2em;
+}
+
+.p3:hover {
+    transform: scale(1.3); 
+    transition: 1000ms;
+  }
+
+  .p4{
+    position: absolute;
+    width: 400px;
+    height: 280px;
+    padding-top: 5px;
+    padding-left: 26px;
+    background-color: rgba(65, 65, 65, 0.801);
+    border-radius: 20px;
+    margin-top: 25em;
+    margin-left: 15em;
+}
+
+.p4 p{
+    padding-top: 3px;
+    font-size: 1.2em;
+}
+
+.p4:hover {
+    transform: scale(1.3); 
+    transition: 1000ms;
+  }
+
+
+#sobre{
+    background-color: #595959;
+    height: 200px;
+} 
+
+#sobre h1{
+    margin-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+#sobre p{
+    font-size: 1.8em;
+    padding-left: 100px;
+    color: purple;
+}
+
+
+footer{
+    display: inline-block;
+}
+footer h2{
+    color: white;
+    font-size: 1em;
+}
+
+footer h3{
+    font-size: 0.9em;
+}
+footer p{
+    color: blue;
+    font-size: 16px;
+}
